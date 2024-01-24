@@ -3,9 +3,11 @@ import Home from "./pages/home";
 import Cadastro from "./pages/Cadastro";
 import Login from "./pages/login";
 import Pedidos from "./pages/pedidos";
+import Footer from "./components/Footer";
 
 function App() {
   return (
+    <>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}></Route>
@@ -14,6 +16,9 @@ function App() {
         <Route path="/pedidos" element={<Pedidos />}></Route>
       </Routes>
     </BrowserRouter>
+    <Footer/>
+
+    </>
   );
 }
 
