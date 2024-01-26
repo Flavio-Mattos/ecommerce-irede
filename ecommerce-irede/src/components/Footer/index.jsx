@@ -50,6 +50,7 @@ export default function Footer() {
 
         <div className="footer-pt4">
           <div className="border-b-2 pt-28 m-auto"></div>
+          
           <p className="text-center pt-9">2023 Irede</p>
         </div>
       </footer>
